@@ -1,0 +1,79 @@
+/* Global Reset & Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f6f9;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+head {
+    display: block; 
+    text-align: center;
+    background-color: #1a365d;
+    color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+head h1 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+head p {
+    font-size: 1.1rem;
+    color: #cbd5e0;
+}
+
+/* Section Headings */
+h2 {
+    color: #1a365d;
+    border-bottom: 2px solid #1a365d;
+    padding-bottom: 6px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+
+p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+.project {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #1a365d;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    
+}
+
+
+.project p:first-child {
+    font-size: 1.1rem;
+    color: #2d3748;
+    margin-bottom: 6px;
+}
+
+email {
+    display: block;
+    color: #2b6cb0;
+    font-weight: 500;
+    margin-top: 5px;
+}
