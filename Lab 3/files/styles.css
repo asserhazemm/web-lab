@@ -1,0 +1,79 @@
+/* ---------- Page background ---------- */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #d6eafc, #c4e0f9);
+}
+
+/* ---------- White card ---------- */
+.container {
+  background: white;
+  width: 320px;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* ---------- Title ---------- */
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 28px;
+  color: #333;
+}
+
+/* ---------- Input + button row ---------- */
+.input-area {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+button {
+  padding: 8px 12px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1976d2;
+}
+
+/* ---------- Names list ---------- */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background: #e3f2fd;
+  color: #333;
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+li:hover {
+  background: #bbdefb;
+}
